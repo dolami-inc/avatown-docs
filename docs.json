@@ -26,7 +26,7 @@
     ]
   },
   "logo": {
-    "light": "/logo/logo_avatown.png",
+    "light": "/logo/logo_avatown_dark.png",
     "dark": "/logo/logo_avatown.png",
     "height": 75,
     "width": 200
