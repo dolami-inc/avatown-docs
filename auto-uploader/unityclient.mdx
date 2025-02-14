@@ -8,13 +8,59 @@ icon: 'gear-code'
 
 ### Unity
 
-For this we specifically recommend downloading unity `2022.3.22.f1` version from [here](https://unity.com/releases/editor/whats-new/2022.3.22). The same version is also used by VRchat. 
-As we proceed, it expected that you have downloaded and installed `Unity 2022.3.22f1`.
+To ensure compatibility, it is recommended to download and install `Unity 2022.3.22f1`, which can be obtained from the [official Unity website](https://unity.com/releases/editor/whats-new/2022.3.22). This version aligns with the one used by VRChat.
 
-From VRchat: Unity 2022 is required to use the latest version of the VRchat SDK, and we strongly recommend upgrading if you are still on Unity 2019. 
-Without upgrading, you can't access any future SDK updates, and some previously made content might experience issues.
+**Important**:
+VRChat requires Unity 2022 for its latest SDK. Users still utilizing Unity 2019 are strongly advised to upgrade, as future SDK updates will not be accessible on outdated versions. Additionally, content created in older versions may experience compatibility issues.
 
 ### VRchat Creator Companion
 
-We will also need VRchat Creator companion. [Follow this official guide](https://vcc.docs.vrchat.com/) from VRchat. This documentation will guide you to download and install VRchat Creator Companion.
+The VRChat Creator Companion is required for setting up VRChat projects. Please refer to the [official VRChat documentation](https://vcc.docs.vrchat.com) for installation instructions.
 
+### Avatown Unity Client
+
+Avatown unity client is needed to upload the Unitypackage and asset bundle of the corresponding avatar. To get started first download the Avatown Unity Client as per your language preference.
+
+- [English Version of Avatown Unity Client](#)
+- [Japanese Version of Avatown Unity Client](#)
+
+After downloading, save the Unity package in a directory of your choice.
+
+### Step 1: Create a New Project
+For users starting a new project, please follow the steps below. If you are importing the Avatown Unity Client into an existing project, please [Proceed here](#)
+
+Open VRChat Creator Companion and create a new project.
+
+<img height="200" noZoom src="/auto-uploader/unityclient/vrc_create.png" />
+
+Enter a project name, specify a directory, and click Create Project. On the subsequent screen, ensure all required VRChat SDKs are selected.
+
+<img height="200" noZoom src="/auto-uploader/unityclient/vrc_package.png" />
+
+Once the required packages have been selected, click Open Project to launch Unity.
+
+### Step 2: Importing the Avatown Unity Client
+Once the project has been opened in Unity and ready to be used, lets import the Avatown Unity Client.
+To import, `Assets > Import Package > Custom Package...`
+
+<img height="200" noZoom src="/auto-uploader/unityclient/import_asset.png" />
+
+Select the previously downloaded Avatown Unity Client Unity package file.
+
+<img height="200" noZoom src="/auto-uploader/unityclient/select_package.png" />
+
+This will show a prompt on Unity about what files are being imported. Click "Import".
+
+<img height="200" noZoom src="/auto-uploader/unityclient/click_import.png" />
+
+A prompt will appear displaying the files that will be imported. Click Import to proceed.
+Unity will begin the import process. Please wait for it to complete.
+
+<img height="200" noZoom src="/auto-uploader/unityclient/select_package.png" />
+
+### Step 3: Accessing the Avatown Unity Client
+Upon successful import, you will find Avatown in the Unity toolbar. Click on Avatown Client to launch the client interface.
+You will be required to log in using your goavatown.com account credentials.
+Once logged in, the Avatown Unity Client is ready for use.
+
+<img height="200" noZoom src="/auto-uploader/unityclient/avatown_login.png" />
