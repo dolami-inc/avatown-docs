@@ -9,17 +9,32 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "tabs": [
+    "languages" : [
       {
-        "tab": "Docs",
+        "language": "en",
         "groups": [
           {
             "group": "Auto Uploader",
             "pages": [
-              "auto-uploader/unityclient",
-              "auto-uploader/nativeapp",
-              "auto-uploader/mobileapp"
+              "en/auto-uploader/unityclient",
+              "en/auto-uploader/nativeapp",
+              "en/auto-uploader/mobileapp"
             ]
+
+          }
+        ]
+      },
+      {
+        "language": "jp",
+        "groups": [
+          {
+            "group": "Auto Uploader",
+            "pages": [
+              "jp/auto-uploader/unityclient",
+              "jp/auto-uploader/nativeapp",
+              "jp/auto-uploader/mobileapp"
+            ]
+
           }
         ]
       }
